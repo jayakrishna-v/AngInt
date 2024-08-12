@@ -1,0 +1,7 @@
+<section style="background-color: lightgray;border-radius: 5px; padding:5px;margin:10px;width:500px;">
+    <br/>
+    <img [src]="housingLocation.photo" alt="{{housingLocation.name}}" style="width:100px;height:auto" /><br/>
+    <h2>{{housingLocation.name}}</h2>
+    <p>{{housingLocation.city}}, {{housingLocation.state}}</p><br/>
+    <a [routerLink]="['details',housingLocation.id]" style="font-size:small;" >Learn More..</a>
+</section>
